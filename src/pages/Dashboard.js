@@ -20,8 +20,8 @@ const Dashboard = () => {
     }, []);
 
     useEffect(() => {
-        fetchItems();
-    }, [fetchItems]);
+    fetchItems();
+     }, []);
 
     // Part D: Search items by name 
     const handleSearch = async (e) => {
